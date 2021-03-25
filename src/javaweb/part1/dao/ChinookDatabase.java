@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ChinookDatabase {
-    private static final String URL = "jdbc:sqlite:G:\\lappari_final\\koulu_lappari\\RECORDSTORE2.0\\record-store\\sqlite\\Chinook_Sqlite.sqlite";
+    private static final String URL = "jdbc:sqlite:src/sqlite/Chinook_Sqlite.sqlite";
 
     public static Connection connect() {
     	Connection connect = null;
